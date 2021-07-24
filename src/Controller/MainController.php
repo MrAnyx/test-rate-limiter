@@ -6,7 +6,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class ApiController extends AbstractController
+class MainController extends AbstractController
 {
     /**
      * @Route("/api", name="api_index")
