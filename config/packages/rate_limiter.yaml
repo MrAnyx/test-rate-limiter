@@ -1,6 +1,6 @@
 framework:
     rate_limiter:
         anonymous_api:
-            policy: 'sliding_window'
+            policy: 'fixed_window'
             limit: 5
             interval: '1 minute'
