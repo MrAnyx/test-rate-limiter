@@ -24,6 +24,6 @@ class MainController extends AbstractController
      */
     public function home(): Response
     {
-        return new Response("Hello world");
+        return new Response("Hello world !");
     }
 }
